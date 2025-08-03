@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "private-portfolio",
+      "dependencies": {
+        "unicornstudio-react": "^1.4.29",
+      },
       "devDependencies": {
         "turbo": "^2.5.4",
       },
@@ -26,6 +29,7 @@
         "sonner": "^2.0.5",
         "tailwind-merge": "^3.3.1",
         "tw-animate-css": "^1.2.5",
+        "unicornstudio-react": "^1.4.29",
         "zod": "^4.0.2",
       },
       "devDependencies": {
@@ -647,6 +651,8 @@
     "typescript": ["typescript@5.9.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A=="],
 
     "undici-types": ["undici-types@6.21.0", "", {}, "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="],
+
+    "unicornstudio-react": ["unicornstudio-react@1.4.29", "", { "peerDependencies": { "react": ">=18.0.0", "react-dom": ">=18.0.0" } }, "sha512-mjKYZdqydjOC/a/lDKMy6XOe3jYBXxLaJxUPNQ8TdFsz/LiKKt+wHTwCBCRILA17uPM/i7y+eoQMzBrr8Ht3UQ=="],
 
     "unplugin": ["unplugin@2.3.5", "", { "dependencies": { "acorn": "^8.14.1", "picomatch": "^4.0.2", "webpack-virtual-modules": "^0.6.2" } }, "sha512-RyWSb5AHmGtjjNQ6gIlA67sHOsWpsbWpwDokLwTcejVdOjEkJZh7QKu14J00gDDVSh8kGH4KYC/TNBceXFZhtw=="],
 
