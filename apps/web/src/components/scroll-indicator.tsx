@@ -34,29 +34,29 @@ export default function ScrollIndicator() {
     <div className="fixed bottom-8 right-8 z-50 flex flex-col items-center">
       {/* SCROLL text */}
       <div className="flex flex-col items-center mb-2">
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           S
         </span>
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           C
         </span>
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           R
         </span>
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           O
         </span>
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           L
         </span>
-        <span className="text-black font-sans text-sm font-medium tracking-wider">
+        <span className="text-white font-sans text-sm font-medium tracking-wider">
           L
         </span>
       </div>
       
       {/* Animated line */}
-      <div className="w-px h-8 bg-gray-300 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-3 bg-black animate-scroll-line shadow-sm"></div>
+      <div className="w-px h-8 bg-white/30 relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-3 bg-white animate-scroll-line shadow-sm"></div>
       </div>
     </div>
   );

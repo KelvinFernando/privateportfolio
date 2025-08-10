@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
 
 function HomeComponent() {
   return (
-    <div className="container mx-auto px-4 py-8 flex justify-center items-center min-h-screen bg-stone-100">
+    <div className="min-h-screen w-screen flex justify-center items-center bg-black">
       <UnicornSceneComponent />
       <ScrollIndicator />
     </div>
